@@ -1,0 +1,14 @@
+/*Dando cor a barra superior do site*/
+.navbar {
+    background-color: red;
+}
+/*AJUSTANDO class QUEM-SOMOS dando cor tamanho  e formato*/
+.quem-somos{
+    background-color: rgb(19, 19, 29);
+    font-display: 5px;
+    color: aliceblue;
+}
+
+.margin{
+    padding-top: 50px;
+}
