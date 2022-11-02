@@ -2,46 +2,86 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minha Pagina</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-            <img src="img/zero.gif" width="120" height="100">
-            <img src="img/SP1.gif" width="120" height="100">
+            <img src="img/zero.gif" width="120" height="100" />
+            <img src="img/brazil.gif" width="120" height="100" />
         </a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"> Quem Somos</a>
+                    <a class="nav-link" href="#quemsamos"> Quem Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"> Parceiros</a>
+                    <a class="nav-link" href="#parceiros"> Parceiros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"> Serviços</a>
+                    <a class="nav-link" href="#servicos"> Serviços</a>
                 </li>
-
-
             </ul>
         </div>
     </nav>
     <section id="quemsamos">
         <div class="container-fluid quem-somos text-center margin">
-           <h3>Quem Somos</h3>
-           <img src="img/time.jpg" width="400"> 
+            <h3>Quem Somos</h3>
+            <img src="img/time.jpg" class="rounded-circle" width="400" height="400" />
+            <h4>Somos um time comprometido com os resuldados</h4>
         </div>
-
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/Logo Sistema Fecomércio-AL_Menor.jpg" class="rounded-circle" width="300"
+                            height="100%" />
+                        <h4>Melhor Lugar de ......</h4>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/Sá & Cavalcante Marca 1 branco.png" class="rounded-circle" width="300"
+                            height="100%" />
+                        <h4>Melhor escritorio juridico do Estado</h4>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/parc3b.jpg" class="rounded-circle" width="300" height="100%" />
+                        <h4>Melhor Distribuidora do Estado</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <section id="servicos">
+        <div class="container-fluid servicos text-center margin">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p> Trabalhamos com manutenção de todas as marcas e modelos de celulares, incluindo toda a linha de Smartphones,  iPhones e Tablets.</p>
+                        <img src="img/app1.jpg" class="rounded-circle" width="400" height="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>O conserto de notebook é um serviço realizado por profissionais capacitados que  equipamento tenha uma boa usabilidade novamente.</p>
+                        <img src="img/site1.jpg"  class="rounded-circle" width="400" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Amaury Prats</p>
+    </footer>
 </body>
 
 </html>

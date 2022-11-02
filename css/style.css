@@ -1,14 +1,43 @@
+body{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
 /*Dando cor a barra superior do site*/
 .navbar {
-    background-color: red;
+    background-color: rgb(47, 78, 218);
+    font-size: 25px;
+    padding-left: 20px;
+    position: ;
 }
 /*AJUSTANDO class QUEM-SOMOS dando cor tamanho  e formato*/
 .quem-somos{
-    background-color: rgb(19, 19, 29);
+    background-color: yellow;
     font-display: 5px;
-    color: aliceblue;
+    color: rgb(7, 90, 163);
 }
 
 .margin{
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: rgb(8, 94, 79);
+    font-display: 10px;
+    color: aliceblue;
+    padding-bottom: 100px;
+
+}
+.servicos{
+    background-color: white;
+    font-display: 5px;
+    color: rgb(14, 97, 170);
+    padding-bottom: 100px;
+
+}
+.bg-footer{
+    background-color: black;
+    color: aliceblue;
 }
